@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+  text-align: center;
+  font-family: 'Lucida Console'; 
+}
+h1{
+color: green;
+text-decoration:underline;
+font-size: 50px;
+margin-bottom: -10px;
+}
+h2{
+color: green;
+margin-bottom: 50px;
+}
+h3{
+color: green;
+}
+p{
+color: green;
+
+}
+section{
+margin: 0 auto;
+width: 70%
+}
+img{
+width: 30%;
+margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  animation: color-change 1s infinite;
+}
+@keyframes color-change {
+  0%{color: white}
+  50%{color: green}
+  100%{color: white}
+}
+.pricetag{
+  animation: color-change 1s infinite;
+}
